@@ -187,6 +187,15 @@ nav ul{
   font-family: 'Shippori Mincho B1';
   color: #415a77;
 }
+.gallery{
+  display: grid;
+  grid-template-columns: auto ;
+  grid-template-rows: auto auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  height: 100%;
+  border:2px #0D1B2A
+}
 
 footer {
   background-color: #4B2F47;
